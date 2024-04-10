@@ -1,0 +1,440 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+    list-style: none;
+}
+
+
+
+body {
+    
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+     }   
+     
+     .container {
+         max-width: 1200px;
+         
+         margin: 0 auto;
+     }
+      
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(images/bg.jpg);
+        background-position:center bottom ;
+        background-repeat: no repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu    {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.menu .nav-bar ul li {
+    position: relative;
+    float: left
+    
+}
+
+.menu .nav-bar ul li a {
+    font-size: 14px;
+    padding: 20px;
+    color: #fff;
+    display: block;
+    font-weight: 800;
+    
+}
+
+.menu .nav-bar ul li a:hover {
+    color: #CE967b;
+    
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 28px;
+    
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    color: #F9FAFC;
+    line-height: 80px;
+    font-size: 75px;
+    text-transform: uppercase;
+     margin-bottom: 35px;
+}
+
+.header-content p { 
+    color: #F9FAFC;
+    font-size: 18px;        
+    margin-bottom: 25px;
+    padding: 0  250px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967b;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #F9FAFC;
+    color: #CE967b;
+    border: 1px solid #CE967b;
+}
+
+.coffe {
+    padding: 100px 0;
+    background-color: #CE967b;
+    position: relative;
+}
+
+.coffe-content {
+    text-align: center;
+}
+
+.coffe-content h2 {
+    color: #F9FAFC;
+    font-size: 35px;
+    text-transform: uppercase;
+   line-height: 70px;
+   padding: 0  250px;
+   margin-bottom: 15px;
+}   
+
+.txt-p {
+    color: #F9FAFC;
+    font-size: 18px;        
+    margin-bottom: 25px;
+    padding: 0  250px;
+}
+
+.coffe-group {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 50px;
+}
+
+.coffe-1 {
+    padding: 0 25px;
+}
+
+.coffe-1 img {
+    width: 200px;
+}
+
+
+.coffe-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+       
+}
+
+.coffe-1 h3 {
+    color: #070707;
+    font-size: 25px;
+   
+    margin-bottom: 15px;
+}
+
+.services {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(images/bg2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 100px 0;
+       
+}
+
+.services-content {
+    text-align: center;
+}
+
+.services-content h2 {
+    color: #F9FAFC;
+    font-size: 50px;
+    text-transform: uppercase;
+   line-height: 70px;
+   
+   margin-bottom: 50px;
+}
+
+.services-content p {
+    color: #F9FAFC;
+    font-size: 16px;        
+    margin-bottom: 50px;
+    padding: 0  100px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 50px;
+}
+
+.seervices-1 {
+    padding: 0 100px;
+}
+
+.services-1 img {   
+
+    width: 25px;
+    margin-bottom:15px ;
+}
+
+.services-1 h3 {
+    color: #073083;
+    font-size: 15px;
+     
+}   
+
+.general {
+   display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 250px; 
+    background-color: #F9FAFC;
+}
+
+.general-2 {
+    background-image: url(images/coffe-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(images/coffee-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    color: #073083;
+    font-size: 55px;
+    text-transform: uppercase;
+   line-height: 70px;
+   
+   margin-bottom: 20px;
+}
+
+p {
+    color: #76aa22;
+    font-size: 16px;        
+    margin: 25px 0 45px 0;  
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}   
+
+.blog-1 img {
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.blog-1 h3 {
+    color: #d6143e;
+    font-size: 25px;
+   
+}
+
+.footer {
+    background-color: #04070c;
+    padding: 100px 0;
+}   
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+link h3 {
+    color: #F9FAFC;
+    font-size: 25px;
+    text-transform: uppercase;
+   
+   
+   margin-bottom: 15px;
+}
+
+.link a {
+    color: #F9FAFC;
+    font-size: 16px;        
+    margin-bottom: 15px;
+    display: flex;
+}
+
+@media   (max-width: 768px) and (min-width:500px) {
+    .menu {
+        padding: 30px;
+    }    
+
+    .menu label {
+        display: initial;
+    }   
+
+    .menu .nav-bar { 
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+        background-color: #d6143e;
+    }
+
+    .menu .nav-bar ul li {
+        width: 100%;
+    }   
+
+    #menu:checked ~ .nav-bar {
+        display: initial;
+    }   
+
+    .header {
+        min-height: 0vh;        
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p { 
+        padding: 0;    
+
+}
+
+.coffe {
+    padding: 30px;
+}
+
+.coffe-content h2 {
+    padding: 0;
+}
+
+.txt-p {
+    padding: 0;
+}
+
+.coffe-group {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.coffee-img {
+    display: none;      
+
+}   
+
+.services {
+    padding: 30px;
+}   
+   
+.services-content p {
+    padding: 0;
+}
+
+.services-group {
+    flex-direction: column;
+    margin-bottom: 0;
+}   
+
+.services-1 {
+    margin-bottom: 25px;
+}   
+
+.general {
+    flex-direction: column;
+}   
+
+.general-1 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}   
+
+.general-2,.general-3 {
+    display: none;
+}
+
+.blog {
+    padding: 30px;
+}   
+
+.blog-content {
+    flex-direction: column;
+}       
+
+.blog-1 {
+    padding: 30px 0;        
+}   
+
+.footer {
+    padding: 30px;
+}   
+
+.footer-content {
+    flex-direction: column;
+    text-align: center;
+}
+}

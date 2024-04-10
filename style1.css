@@ -1,0 +1,44 @@
+#responsive-div{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    border: solid 3px black;
+}
+/* para pantallas de tablet*/
+
+@media   (max-width: 768px) and (min-width:500px) {
+    *{
+        background-color: blue; 
+    }     
+
+}
+
+#responsive-div{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border: solid 3px black;
+}
+
+/* aca vamos a ver flexbox*/
+
+.caja{
+    width: 20vw;
+    height: 23vh;
+    background-color: red;
+    border: solid 3px black;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor{
+    width: 80vw;
+    height: 70vh;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+}
